@@ -3,7 +3,15 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: 'AIzaSyC7YGXttQGfY8UC8MwDg2ylxqSguDkdswQ',
+    authDomain: 'estingfirestore.firebaseapp.com',
+    databaseURL: 'https://estingfirestore.firebaseio.com',
+    projectId: 'estingfirestore',
+    storageBucket: '',
+    messagingSenderId: '407310850069'
+  }
 };
 
 /*
